@@ -51,7 +51,7 @@
 * 二级映射(于三级模式之间的转换)
   1. 外模式/模式映射:定义外模式和概念模式之,间的对应性，这一-映射使得概念模式的改变不影响外模式和应用程序，从而达到了数据的逻辑独立性。
   2. 模式/内模式映射:定义概念模式和内模式之间的对应性，当存储结构改变即修改内模式时，只要相应改变模式/内模式映象，而模式尽量保存不变，从而达到了数据的物理独立性。
-![alt](https://raw.githubusercontent.com/APF668899/Database/master/BHL7CSL%60%5BXFRMLWWHK%5BBBD3.png)
+![alt](https://github.com/APF668899/Database/blob/master/REP01.png?raw=true)
 ## 八、数据库系统的位置
 |数据库系统的位置||
 |:---|:---|
