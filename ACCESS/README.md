@@ -165,3 +165,20 @@
 |确定范围|[NOT] Between …… And ……(不在/在……和……的范囿内)|
 |确定集合|[NOT]IN(不属于/属于指定集合)|
 |字符匹配|[NOT] Like "<匹配串>'|
+### 查询条件的使用
+* 使用数值作为查询条件
+![图片](https://gitee.com/MrFlySand/Other/raw/master/Material/Image/Database/ACCESS/access-P01.png)
+* 使用文本值作为查询条件
+![图片](https://gitee.com/MrFlySand/Other/raw/master/Material/Image/Database/ACCESS/access-P02.png)
+* 使用处理日期结果作为查询条件
+![图片](https://gitee.com/MrFlySand/Other/raw/master/Material/Image/Database/ACCESS/access-P03.png)
+* 使用字段的部分值作为查询条件(通配符可以搜索部分匹配或完全匹配的内容：? 指代任何单一字符,  * 指代零个或多个字符,  # 指代单个数字)
+![图片](https://gitee.com/MrFlySand/Other/raw/master/Material/Image/Database/ACCESS/access-P04.png)
+* 使用空值或空字符串作为查询条件(空值：表示未知的值，使用Null或空白来表示字段的值。空字符串：是用双引号括起来的字符串，且双引号中间没有空格)
+![图片](https://gitee.com/MrFlySand/Other/raw/master/Material/Image/Database/ACCESS/access-P05.png)
+* 操作查询
+  * 追加查询
+  * 删除查询
+  * 更新查询
+  * 生成表查询
+
